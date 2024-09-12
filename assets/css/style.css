@@ -142,6 +142,7 @@ main {
         /* Push main content down to accomodate larger header */
         margin-top: 79px;
     }
+}
 
     /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 992px) {
