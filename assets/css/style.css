@@ -87,10 +87,17 @@ h1 {
 
 /* Main Content */
 main {
-    background-color: aqua;
     /* Forces element to take up surplus whitespace to push footer down to the bottom */
     flex: 1 0 auto;
     margin-top: 47px;
+}
+
+/* Hero Section */
+    
+#hero {
+    height: 600px;
+    width: 100%;
+    background: url("../img/hero-image.webp") no-repeat center center/cover;
 }
 
 /* Footer */
