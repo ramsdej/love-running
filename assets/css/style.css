@@ -116,6 +116,14 @@ main {
     color: #ffffff;
 }
 
+/* Section Section???????????????????????? */
+
+#benefits-physical>div,
+#benefits-mental>div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
 #reasons {
     width: 90%;
     margin: 20px auto;
@@ -127,14 +135,9 @@ main {
     font-size: 280%;
 }
 
-#benefits-physical>div,
-#benefits-mental>div {
-    line-height: 20px;
-    margin-bottom: 20px;
-}
-
-#benefits p {
+#reasons-image p {
     padding: 0 20px;
+    background: url("../img/reasons-image.webp") no-repeat center center/cover;
 }
 
 hr {
