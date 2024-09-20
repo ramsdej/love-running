@@ -159,6 +159,10 @@ main {
     justify-content: center;
 }
 
+#meetups p {
+    padding-left: 20px;
+}
+
 /* Footer */
 #social-networks {
     text-align: center;
@@ -266,5 +270,10 @@ main {
 
     #benefits-physical > div {
         align-self: flex-end;
+    }
+
+    #circle-cover-bg {
+        max-width: 400px;
+        max-height: 400px;
     }
 }
