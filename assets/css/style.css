@@ -19,6 +19,17 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+h1, h2, h3 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #252525;
+}
+
+.hidden-heading {
+    display: none;
+}
+
 /* Header */
 header {
     background-color: #ffffff;
@@ -49,13 +60,6 @@ header a {
 
 .active {
     border-bottom: 1px solid #3a3a3a;
-}
-
-h1, h2, h3 {
-    font-family: 'Oswald', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #252525;
 }
 
 /* Navbar styles that also include dropdown menu toggle */
